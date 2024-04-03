@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {background-color:linear-gradient(#6db2b3, #333b41);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: rgb(14, 136, 16);
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        main {background-color: linear-gradient(#6db2b3, #353341);
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-container {
+            max-width: 300px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            margin-bottom: 15px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #db1efc;
+            text-transform: uppercase;
+        }
+        
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+        box{display: flex;}
+
+        main {background-color:linear-gradient(#6db2b3, #cd0808);
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        
+  .p1,.p3,.p4 { display:flex; background-color:pink; font-size:16px;
+    border:1px solid black;height :220px;
+    width: 300px;margin-left :40px;padding: 10px;border-radius:32px;}
+    #about-section {
+        display: none; 
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5); 
+        color: #fff; 
+        padding: 20px;
+        width:90px
+        border-radius: 5px;
+        margin-bottom: 20px;
+      }  
+
+        .hidden {
+            display: none;
+        }
+
+        form {width: 250px;
+            height: fit-content;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            background-color: rgb(240, 243, 243);
+        }
+
+        label {width:100px;
+              font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+            padding: 8px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+        }
+       .mainbody{background-color: #a0d2d2;
+    background-repeat: repeat;
+    border-radius: 5px;
+background-size: cover;}
+    </style>
+    <title>E-Waste Management System</title>
+</head>
+<body  class="mainbody">
+    <header>
+        <h1>Electronic E-Waste Management System</h1>
+    </header>
+    <nav>
+        <a href="http://127.0.0.1:5500/e waste management system.html#">Home</a>
+        <a href="#">Contacts</a>
+        <a href="#"><abbr tittle="we offfer 24 dairly hour support kindly visit our website ">Services</abbr></a>
+        <a href="#" onclick="toggleAbout()">About</a>
+
+    </nav>
+    <div id="about-section">
+        <h2>About E-Waste Management System</h2>
+        <p>
+            E-waste, an emerging global environmental issue, is gaining prominence. The rapid growth in Waste Electrical and Electronic Equipment (WEEE) contributes to this concern. This trend is expected to persist due to the swift emergence of novel technologies and the availability of inexpensive electrical and electronic products.
+            Consumer electronics evolve rapidly, but limited incentives for designs that promote reduce, reuse, and recycle (3R) lead to frequent obsolescence and disposal. The discarded electronics pose a rising threat due to toxic substances like lead, nickel, cadmium, copper, chromium, beryllium, lithium, and mercury. Mismanagement of e-waste can harm both human health and the environment, given its highly toxic components.
+        </p>
+    </div>  <div class="details"  id="detail" style="display:flex; flex-direction:row;justfy-content:space-between; margin-left:30px;" >
+        <div class="p1">
+        <p>
+        Welcome to our revolutionary e-waste system! <br>
+        We understand the importance of responsibly managing electronic waste, 
+        Our system offers a range of convenient disposal methods <br>
+        tailored to your needs.<br>
+         Whether you're recycling old gadgets, donating usable devices,<br>
+          or safely disposing of broken electronics, we've got you covered.</p>
+           </div>
+        <div class="p3">
+        <P>By logging in, you'll become part of a community dedicated <br>
+        to making a positive impact on the planet. <br>
+        <br>Join us in our mission to reduce electronic waste,<br>
+         conserve resources, and protect the environment for future generations. <br>
+         Together, we can make a difference—one device at a time. <br>
+         Join now and be a champion for sustainability!</p>
+        </div>
+        
+        <div class="p4"><p>
+        <P>Discover sustainable solutions for your electronic waste! Our e-waste system offers convenient disposal methods,<br>
+         recycling incentives, and environmental impact tracking. <br>
+         Join us to contribute to a cleaner planet while enjoying exclusive benefits. <br>
+         Log in now and become part of the green revolution!</p></div>
+          </div>
+    
+    
+    <main><div class="mainbody">
+        <div class="form-container" id="register-form">
+            <h2>Register</h2>
+            <form onsubmit="registerUser(event)">
+                <label for="reg-useremail">email:</label>
+                <input type="text" id="reg-useremail" required>
+                <label for="reg-password">Password:</label>
+                <input type="password" id="reg-password" required>
+                <select name="user_type" id="user_type">
+                    <option value="admin">Admin</option>
+                    <option value="user">User</option>
+                </select><br>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+      
+            
+
+        <div class="form-container" id="login-form" style="display: none;">
+            <h2>Login</h2>
+            <form onsubmit="loginUser(event)">
+                <label for="login-useremail">email:</label>
+                <input type="text" id="login-useremail" required>
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" required>
+                <select name="user_type" id="luser_type">
+                    <option value="admin">Admin</option>
+                    <option value="user">User</option>
+                  </select><br>
+                
+                
+                <button type="submit">Login</button>
+            </form>
+            </div>
+            <div class="box" id="welcome-page" style="display: none; text-align: center;background-color:rgb(194, 194, 222)">
+            
+                <h2>Welcome <span id="user-welcome"></span>!</h2>
+                <p>You are now logged in.</p>
+                <p>we buy e waste products from users .userss are requested to add their products to our system for review </p>
+                <div>
+                    <div class="container">
+                        <button onclick="showAddForm()">Add Product</button>
+                        <button onclick="showRemoveForm()">Remove Product</button>
+                        <button onclick="displayProducts()">Display Products</button>
+                    <div id="about-section" style="display: none;">
+                        <h2>About E-Waste Management System</h2>
+                        <p>
+                            E-waste, an emerging global environmental issue, is gaining prominence. The rapid growth in Waste Electrical and Electronic Equipment (WEEE) contributes to this concern. This trend is expected to persist due to the swift emergence of novel technologies and the availability of inexpensive electrical and electronic products.
+                            Consumer electronics evolve rapidly, but limited incentives for designs that promote reduce, reuse, and recycle (3R) lead to frequent obsolescence and disposal. The discarded electronics pose a rising threat due to toxic substances like lead, nickel, cadmium, copper, chromium, beryllium, lithium, and mercury. Mismanagement of e-waste can harm both human health and the environment, given its highly toxic components.
+                        </p>
+                    </div> </div>
+                   
+                    
+                    <div  id="addForm" class="hidden">
+                        <h2>Add Product</h2>
+                        <form id="addProductForm" onsubmit="addProduct(event)">
+                            <label for="product_id">Product ID:</label>
+                            <input type="text" id="product_id" required>
+                            <label for="productName">Product Name:</label>
+                            <input type="text" id="productName" required>
+                            <label for="productCategory">Product Category:</label>
+                            <select name="productCategory" id="productCategory" required>
+                                <option value="category_a">Category A</option>
+                                <option value="category_b">Category B</option>
+                                <option value="category_c">Category C</option>
+                            </select>
+                            <button type="submit">Add Product</button>
+                        </form>
+                    </div>
+
+                    <div id="removeForm" class="hidden">
+                    
+                        <form id="removeProductForm" onsubmit="removeProduct(event)">
+                            <label for="removeProductName">Product Name:</label>
+                            <input type="text" id="removeProductName" required>
+                            <button type="submit">Remove Product</button>
+                        </form>
+                    </div>
+                    <div id="productList" class="hidden">
+                        
+                        <ul id="productListItems"></ul>
+                    </div>
+                </div>
+    
+                <div>
+            <p id="login-success" style="display: none; color: green;">Login successful!</p>
+        </div>
+    </div>
+    </main>
+
+    <script>
+        const registeredUsers = [];
+        let currentUser = null;
+
+        function registerUser(event) {
+            event.preventDefault();
+            const regUseremail = document.getElementById("reg-useremail").value;
+            const regPassword = document.getElementById("reg-password").value;
+            const regUser_type = document.getElementById("user_type").value;
+
+            if (!registeredUsers.some(user => user.useremail === regUseremail)) {
+                registeredUsers.push({ useremail: regUseremail, password: regPassword, user_type: regUser_type });
+
+                // Check if the user is an admin
+                if (regUser_type === 'admin') {
+                    var otp = prompt("Enter OTP for admin:");
+                    if (otp === '123456') { // Example OTP, replace with your actual OTP validation logic
+                        alert("Registration successful! Please log in.");
+                        showLoginForm();
+                    } else {
+                        alert("Incorrect OTP. Registration failed.");
+                    }
+                } else {
+                    alert("Registration successful! Please log in.");
+                    showLoginForm();
+                }
+            } else {
+                alert("Email already exists. Please choose a different one.");
+            }
+        }
+
+        function showLoginForm() {
+            document.getElementById("register-form").style.display = "none";
+            document.getElementById("login-form").style.display = "block";
+        }
+function loginUser(event) {
+    event.preventDefault();
+
+    const loginUseremail = document.getElementById("login-useremail").value;
+    const loginPassword = document.getElementById("login-password").value;
+    const loginUser_type = document.getElementById("luser_type").value;
+
+    const user = registeredUsers.find(user => user.useremail === loginUseremail && user.password === loginPassword && user.user_type === loginUser_type);
+
+    if (user) {
+        currentUser = user.useremail;
+
+        if (loginUser_type === 'admin') {
+            // Code for admin login
+            document.getElementById("welcome-page").style.display = "block";
+            document.getElementById("login-form").style.display = "none";
+        } else {
+            document.getElementById("login-form").style.display = "none";
+            document.getElementById("welcome-page").style.display = "block";
+        }
+    } else {
+        alert("Invalid email or password. Please try again.");
+    }
+}
+function toggleAbout() {
+    const aboutSection = document.getElementById("about-section");
+    if (aboutSection.style.display === "none") {
+        aboutSection.style.display = "block";
+    } else {
+        aboutSection.style.display = "none";
+    }
+}
+
+
+        function showLoginForm() {
+            document.getElementById("login-form").style.display = "block";
+            document.getElementById("register-form").style.display = "none";
+            document.getElementById("welcome-page").style.display = "none";
+            
+        }
+
+        let products = [];
+
+        function showElement(elementId) {
+            document.getElementById(elementId).classList.remove('hidden');
+        }
+
+        function hideElement(elementId) {
+            document.getElementById(elementId).classList.add('hidden');
+        }
+
+        function showAddForm() {
+            hideElement('removeForm');
+            hideElement('productList');
+            showElement('addForm');
+        }
+
+        function showRemoveForm() {
+            hideElement('addForm');
+            hideElement('productList');
+            showElement('removeForm');
+        }
+
+        function displayProducts() {
+            hideElement('addForm');
+            hideElement('removeForm');
+            showElement('productList');
+
+            const productListItems = document.getElementById('productListItems');
+            productListItems.innerHTML = '';
+
+            products.forEach(product => {
+                const listItem = document.createElement('li');
+                listItem.textContent = product.name + ' - ' + product.category;
+                productListItems.appendChild(listItem);
+            });
+        }
+
+        function addProduct(event) {
+            event.preventDefault();
+            const productName = document.getElementById('productName').value;
+            const productCategory = document.getElementById('productCategory').value;
+
+            products.push({
+                name: productName,
+                category: productCategory
+            });
+
+            console.log(`Adding Product: ${productName}, Category: ${productCategory}`);
+            document.getElementById('addProductForm').reset();
+        }
+
+        function removeProduct(event) {
+            event.preventDefault();
+            const removeProductName = document.getElementById('removeProductName').value;
+
+         
+            const indexToRemove = products.findIndex(product => product.name === removeProductName);
+
+            if (indexToRemove !== -1) {
+                            products.splice(indexToRemove, 1);
+                console.log(`Removing Product: ${removeProductName}`);
+                alert("product removed sucessfully");
+            } else {
+                console.log(`Product not found: ${removeProductName}`);
+            }
+            document.getElementById('removeProductForm').reset();
+        }
+        function toggleForms() {
+            var loginForm = document.getElementById('login-form');
+            var registerForm = document.getElementById('register-form');
+        
+            loginForm.classList.toggle('hidden');
+            registerForm.classList.toggle('hidden');
+          }
+        
+          document.getElementById('toggle-register').addEventListener('click', function(event) {
+            event.preventDefault(); 
+            toggleForms();
+          });
+    </script>
+</body>
+</html>
